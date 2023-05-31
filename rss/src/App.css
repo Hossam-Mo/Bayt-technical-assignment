@@ -1,0 +1,49 @@
+.jobs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-top: 60px;
+}
+.jobs > h1 {
+  margin-bottom: 42px;
+  font-family: serif;
+  color: #0774eb;
+}
+
+.jobs_title {
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 92vw;
+  border-radius: 7px;
+}
+.jobs_title:hover {
+  background-color: rgb(248, 247, 247);
+}
+.jobs_title > h1 {
+  color: #0774eb;
+  font-size: 24px;
+}
+.jobs_title > h2 {
+  color: #acb4be;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.jobs_title > button {
+  background-color: #0774eb;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #0774eb;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.jobs_title > button:hover {
+  background-color: #085db8;
+}

@@ -1,0 +1,29 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000000;
+}
+.modal_main {
+  position: relative;
+  background-color: white;
+  width: 50vw;
+  max-height: 100vh;
+  z-index: 1000001;
+  border-radius: 10px;
+  text-align: center;
+}
+.modal_background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.497);
+}
